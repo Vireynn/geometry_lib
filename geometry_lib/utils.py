@@ -1,4 +1,4 @@
-from geometry.shapes import Shape
+from geometry_lib.shapes import Shape
 
 def calculate_area(shape: Shape):
     if isinstance(shape, Shape):

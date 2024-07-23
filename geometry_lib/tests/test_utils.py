@@ -1,8 +1,8 @@
 import unittest
 import math
 
-from geometry import Circle, Triangle
-from geometry.utils import calculate_area
+from geometry_lib import Circle, Triangle
+from geometry_lib.utils import calculate_area
 
 class TestUtils(unittest.TestCase):
     def test_calculate_area(self):
